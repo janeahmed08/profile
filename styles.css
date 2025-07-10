@@ -1,0 +1,241 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    background-image: url(background.jpg);
+}
+
+
+header {
+    background-color: rgb(19, 19, 76);
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navi a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4em;
+    padding-left: 15px;
+}
+
+.navi a:hover{color: rgb(145, 143, 143);}
+
+.abouts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+.abouts .text h1 {
+    font-size: 45px;
+    color: #151d2d;
+    transform: translateY(80px);
+}
+
+.abouts .text h2 {
+    color: #151d2d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    transform: translateY(100px);
+    
+}
+
+.abouts img{
+    transform: translateY(260px);
+}
+
+.abouts .text h2 span {display: block;}
+
+
+.hobbies {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.hobbies h1 {
+    font-size: 45px;
+    background-color: rgb(19, 19, 76);
+    border-radius: 40%;
+    width: 250px;
+    height: 130px;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transform: translateY(100px);
+}
+
+.hobbies h2 {
+    color: #151d2d;
+    font-weight: 700;
+    font-size: 1.8em;
+    transform: translateY(120px);
+}
+
+.education {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.education h1 {
+    font-size: 45px;
+    background-color: rgb(19, 19, 76);
+    border-radius: 40%;
+    width: 250px;
+    height: 130px;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transform: translateY(100px);
+}
+
+.education h2 {
+    color: #151d2d;
+    transform: translateY(120px);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.skills {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.skills h1 {
+    font-size: 45px;
+    background-color: rgb(19, 19, 76);
+    border-radius: 40%;
+    width: 200px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transform: translateY(100px);
+}
+
+.skills h2 {
+    color: #151d2d;
+    transform: translateY(120px);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.favs {
+    margin-bottom: 100px;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+    transform: translateY(100px);
+}
+
+.favs h1 {
+    font-size: 45px;
+    background-color: rgb(19, 19, 76);
+    border-radius: 40%;
+    width: 250px;
+    height: 130px;
+    display: grid;
+    place-items: center;
+    color: aliceblue;
+    transform: translateY(70px);
+}
+
+.favs span {
+    font-size: 35px;
+    background-color: rgb(19, 19, 76);
+    border-radius: 40%;
+    width: 170px;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    color: aliceblue;
+    transform: translateY(150px);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.favs h2 {
+    color: #151d2d;
+    transform: translateY(100px);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.favs h3 {
+    color: #151d2d;
+    transform: translateY(160px);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.contacts {
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 50px 0;
+}
+
+.contacts h1 {
+    font-size: 65px;
+    color: #0f1d3a;
+    transform: translateY(100px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boxx {
+    text-transform: capitalize;
+    transition: .2s linear;
+    padding: 15px 9%;
+    padding-bottom: 100;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 15px;
+    transform: translateY(270px);
+}
+
+.boxx .box {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #add4e2;
+    text-align: center;
+    padding: 40px 25px;
+}
+
+.boxx a{
+    text-decoration: none;
+    color: rgb(8, 20, 30);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 30px 20px;
+
+}
