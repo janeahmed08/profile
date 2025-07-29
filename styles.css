@@ -239,3 +239,31 @@ header {
     padding: 30px 20px;
 
 }
+
+.c404 h1 {
+    font-size: 100px;
+    color: #0f1d3a;
+    transform: translateY(140px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.c404 p {
+    font-size: 25px;
+    color: #0f1d3a;
+    transform: translateY(160px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boc {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #add4e2;
+    text-align: center;
+    padding: 40px 25px;
+    width: 350px;
+    margin: 0 auto;
+}
